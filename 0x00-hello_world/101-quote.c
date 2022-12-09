@@ -1,10 +1,8 @@
 #include<unistd.h>
 
 /**
- * main -Entry point
+ * main - Entry point
  *
- * Description: print out a quote using write function
- * 
  * Return: This time we return an error 1.
  */
 
