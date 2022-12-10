@@ -4,8 +4,7 @@
  * main - Entry point
  *
  * Return: Always 0 (success)
- */ 
-
+ */
 int main(void)
 {
 	int digit = 48; /*48; decimal rep of 0*/
