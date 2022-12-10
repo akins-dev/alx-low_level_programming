@@ -3,7 +3,6 @@
 #include <stdio.h>
 
 
-
 /**
  * main - ENtry point
  *
@@ -13,6 +12,7 @@
 int main(void)
 {
 	int n, digit;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/*my code*/
