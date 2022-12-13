@@ -1,5 +1,4 @@
 #include"main.h"
-
 /**
  * print_sign - prints '+' if n is positive,'0'if n is neutral and '-' otherwise
  *
@@ -27,6 +26,5 @@ int print_sign(int n)
 		_putchar('-');
 		out = -1;
 	}
-
 	return (out);
 }
