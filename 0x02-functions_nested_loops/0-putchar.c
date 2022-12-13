@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * first prints the string "putchar"
+ * main - Entry point
  *
  * Return: Always 0 (success)
  */
-int first()
+int main(void)
 {
 	char name[] = "_putchar";
 	int i = 0;
