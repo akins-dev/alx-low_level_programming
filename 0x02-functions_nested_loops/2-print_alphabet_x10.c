@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
- * main - Entry point
  *
- * print_alphabet_x10:  prints a-z ten times
+ * print_alphabet_x10 - prints a to z ten times
  */
 
 void print_alphabet_x10(void)
 {
 	char n = 'a';
-
 	int count = 0;
 
 	while (count < 10)
@@ -23,5 +21,4 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 		count++;
 	}
-	return;
 }
