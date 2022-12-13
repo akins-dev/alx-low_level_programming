@@ -1,12 +1,15 @@
 #include "main.h"
 
 /**
- * 2-print_alphabet_x10 - prints a-z ten times
+ * main - Entry point
+ *
+ * print_alphabet_x10:  prints a-z ten times
  */
 
 void print_alphabet_x10(void)
 {
 	char n = 'a';
+
 	int count = 0;
 
 	while (count < 10)
