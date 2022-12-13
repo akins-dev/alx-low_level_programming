@@ -28,5 +28,5 @@ int print_sign(int n)
 		out = -1;
 	}
 
-	return (result);
+	return (out);
 }
