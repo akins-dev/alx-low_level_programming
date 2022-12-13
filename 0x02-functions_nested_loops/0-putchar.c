@@ -8,12 +8,14 @@
 int first()
 {
 	char name[] = "_putchar";
+	int i = 0;
 
-	for (int i = 0; i < 8; i++)
+	while (i < 8)
 	{
 		_putchar(name[i]);
+		i++;
 	}
 	_putchar('\n');
 
-	return (0)
+	return (0);
 }
