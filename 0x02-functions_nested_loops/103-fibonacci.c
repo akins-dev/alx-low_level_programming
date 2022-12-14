@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: Prints the sum of even-valued Fibonacci sequence not exceed 4 million
+ * Description: Prints the sum of a fibonacci sequence
  *
  * Return: Always 0 (Success)
  */
