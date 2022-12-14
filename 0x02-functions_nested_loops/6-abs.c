@@ -11,18 +11,17 @@
 int _abs(int i)
 {
 	int result;
-	
+
 	if (i < 0)
 	{
-		result = i + ( i * -2);
+		return (i + (i * -2));
 	}
 	if (i > 0)
 	{
-		result = i;
+		return (i);
 	}
 	if (i == 0)
 	{
-		result = 0;
+		return (0);
 	}
-	return result;
 }
