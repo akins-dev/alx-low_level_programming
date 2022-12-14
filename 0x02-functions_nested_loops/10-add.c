@@ -3,7 +3,9 @@
 /**
  * add - adds two integers
  *
- * @i,j: integer input
+ * @i: first integer input
+ *
+ * @j: second integer input
  *
  * Return: sum on i and j
  */
