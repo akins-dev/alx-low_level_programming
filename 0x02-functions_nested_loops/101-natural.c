@@ -19,9 +19,11 @@ int main(void)
 		else
 			count += 0;
 	}
-	// Remove the last digit and recur
+	/* Remove the last digit and recur */
 	if (count/10)
 		_putchar(count/10 + '0');
-	// Print the last digit
+	/* Print the last digit */
 	_putchar(count%10 + '0');
+
+	return (0);
 }
