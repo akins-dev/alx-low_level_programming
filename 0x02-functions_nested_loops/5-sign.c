@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * print_sign - prints '+' if n is positive,'0'if n is neutral and '-' otherwise
+ * print_sign - checks a number
  *
  * @n: local variable to store input
  *
