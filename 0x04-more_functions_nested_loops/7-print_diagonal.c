@@ -1,10 +1,11 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
- *print_diagonal - Funtion
+ * print_diagonal - Funtion
  *
- *@n: variable
+ * @n: variable
  */
+
 void print_diagonal(int n)
 {
 	int i, j;
