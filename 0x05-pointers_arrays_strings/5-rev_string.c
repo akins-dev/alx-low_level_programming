@@ -1,6 +1,8 @@
  /**
   * rev_string - reverses a string
   *
+  * rev_string - Reverses a given string
+  *
   * @s: string parameter input
   *
   * Return: Nothing
