@@ -20,9 +20,10 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	/**
-	 * we are using unsigned int
-	 * because we are only storing 
-	 * positive integers
+	 * declare an unsigned int
+	 * because we are storing a
+	 * value that will always be
+	 * non-negative (zero or positive)
 	 */
 	unsigned int i;
 
