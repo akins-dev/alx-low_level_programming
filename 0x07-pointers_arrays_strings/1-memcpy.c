@@ -4,10 +4,8 @@
  *
  * @dest: destination (memory address to
  * 	which n bytes from src will be copied
- *
  * @src: source (memory area from which n
  * 	bytes of data will be copied
- *
  * @n: number of bytes to be copied
  *
  * Return: a pointer to dest
