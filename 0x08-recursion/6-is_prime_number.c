@@ -13,11 +13,8 @@ int check(int x, int i)
 {
 	if (x % i == 0)
 		return (0);
-	else
-	{
-		if (i == 1)
-			return (1);
-	}
+	if (i == 1)
+		return (1);
 	return (check(x, i - 1));
 }
 
