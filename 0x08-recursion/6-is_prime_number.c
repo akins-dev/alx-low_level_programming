@@ -16,7 +16,7 @@ int check(int x, int i)
 	else
 		if (i == 1)
 			return (1);
-	return (check(x, i - 1))
+	return (check(x, i - 1));
 }
 
 /**
