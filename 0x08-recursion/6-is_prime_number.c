@@ -11,10 +11,10 @@
 
 int check(int x, int i)
 {
-	if (x % i == 0)
-		return (0);
 	if (i == 1)
 		return (1);
+	if (x % i == 0)
+		return (0);
 	return (check(x, i - 1));
 }
 
