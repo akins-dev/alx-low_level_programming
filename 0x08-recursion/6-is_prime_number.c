@@ -14,8 +14,10 @@ int check(int x, int i)
 	if (x % i == 0)
 		return (0);
 	else
+	{
 		if (i == 1)
 			return (1);
+	}
 	return (check(x, i - 1));
 }
 
@@ -30,9 +32,11 @@ int check(int x, int i)
 int is_prime_number(int n)
 {
 	if (n <= 2)
+	{
 		if (n == 2)
 			return (1);
 		return (0);
+	}
 	else
 		return (check(n, n-1));
 }
