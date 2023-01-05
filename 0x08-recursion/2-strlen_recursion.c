@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen_recursion - a function that prints a new line
+ * _strlen_recursion - a function that returns the length of s
  *
  * @s: the string
  *
