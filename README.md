@@ -19,7 +19,7 @@
 
 ## Resource
 
-- C [Books and PDF's](./references) to check out and use as a reference.
+- C [Books and PDF's](./References) to check out and use as a reference.
 
 ---
 
@@ -39,5 +39,5 @@
 
 # More Resources
 
-- [Pointers and Arrays](./PointerArrays) : Code snippets and notes on Pointers and Arrays from Concept Page.
+- [Pointers and Arrays](./PointersAndArrays) : Code snippets and notes on Pointers and Arrays from Concept Page.
 
