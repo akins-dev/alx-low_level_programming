@@ -1,23 +1,25 @@
-#include "main.h"
+#include <stdio.h>
 #include <stdlib.h>
-
 /**
- * main - Entry point
- *
- * @argc: argument count
- * @argv: Argument vector (array of pointers to char)
- *
- * Return: Always 0 if successful, 1 if not
-  */
-
+ * main - multiply two numbers
+ * @argc: arguement count
+ * @argv: array of pointers to arguement strings
+ * Return: result of multiplication or 1
+ */
 int main(int argc, char *argv[])
 {
+	int a, b, result;
+
+
 	if (argc <= 2)
 	{
 		printf("Error\n");
 		return (1);
 	}
 	/* atoi convert a string to an int */
-	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));	
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	result = a * b;
+	printf("%d\n", result);
 	return (0);
 }
