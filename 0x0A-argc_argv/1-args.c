@@ -10,9 +10,10 @@
  */
 
 int main(int argc, char *argv[])
-{i
-	char i[] = argv[0];
+{
+	/* To stop unused argument warning */
+	argv = argv;
 
-	printf("%d\n", argc);
+	printf("%d\n", argc - 1);
 	return (0);
 }
