@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/*
+/**
  * main - Entry point
  *
  * Description: A program that prints the opcodes
